@@ -49,7 +49,7 @@ switch ($KodTing) {
 
 }
 
- $sql1 = "Select count(1) FROM PELAJAR";
+ $sql1 = "Select count(1) FROM `CREDENTIALS`";
  $result = mysqli_query($connect, $sql1);
 
 
