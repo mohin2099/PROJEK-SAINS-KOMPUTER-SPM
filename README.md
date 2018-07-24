@@ -2,4 +2,9 @@
 19compclub.000webhostapp.com
 
 
-<b>hello</b>
+
+
+
+<h2>Ways to deploy website : </h2>
+
+<h1>1</h1>
