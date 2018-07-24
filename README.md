@@ -7,8 +7,8 @@
 
 <h2>Ways to deploy website : </h2>
 
-<h4>1 : Place the folder downloaded in the htdocs folder in xampp,wampp or any portable server you are using.</h4>
-<h4>2 : Import the .sql database file into phpmyadmin using the IMPORT function . </h4>
+<h4>1 : Place the folder downloaded into the htdocs folder in xampp,wampp or any portable server you are using.</h4>
+<h4>2 : Import the skproject.sql database file into phpmyadmin using the IMPORT function . </h4>
 
 <h4>  3 : Start up the server and access the website at 127.0.0.1 and voila there's the website. Good Luck !! </h4>
 
