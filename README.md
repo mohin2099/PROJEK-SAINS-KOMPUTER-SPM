@@ -13,5 +13,5 @@
 <h2>Start up the server and access the website at 127.0.0.1 and voila there's the website. Good Luck !! </h2>
 
 
-<b>Note</b>
-<h6>You can also access the online version of my website by entering the link given above. <h6>
+<h4>Note</h4>
+<h5>You can also access the online version of my website by entering the link given above. <h5>
