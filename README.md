@@ -14,4 +14,4 @@
 
 
 <h4>Note : </h4>
-<h5><b>You can also access the online version of my website by entering the link given above.<b> <h5>
+<h5><b>You can also access the online version of my website by entering the link given above. ATTENTION !! The website is a little buggy.Just for guide only.<b> <h5>
