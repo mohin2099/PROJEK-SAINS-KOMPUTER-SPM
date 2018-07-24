@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  
+  <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Tangerine">
+    <style>
+      .login_up{
+        font-family: 'Tangerine', serif;
+        font-size: 35px;
+        color: white;
+        text-shadow: 4px 4px 4px #aaa;
+
+
+    }
+
+      .login_down{
+         font-family: 'Tangerine', serif;
+        font-size: 35px;
+        color: white;
+        text-shadow: 4px 4px 4px #aaa;
+      }
+
+
+.username{
+  position: absolute;
+  left:337px;
+}
+
+
+.password_text{
+  position: absolute;
+  left: 337px;
+}
+
+.pass_colon_text{
+  position: absolute;
+  left:545px;
+
+}
+
+.username_colon_text{
+  position: absolute;
+  left: 545px;
+  top:375px;
+}
+
+.upload{
+
+   position: absolute;
+  left: 307px;
+  bottom: 90px;
+
+}
+
+.upload_input{
+  position: absolute;
+  left: 295px;
+  bottom: 2px;
+}
+
+.upload_submit{
+  position: absolute;
+  left: 500px;
+  bottom: 2px;
+}
+
+.upload_colon{
+   position: absolute;
+  left: 237px;
+  bottom:5px;
+
+}
+
+.show_password{
+
+  position: absolute;
+  left: 800px;
+  bottom:170px;
+
+}
+
+    
+      
+      
+     
+    </style>
+
+  <title>Log Masuk</title>
+
+
+ <script type="text/javascript">
+    function checkpass() {
+    var x = document.getElementById("user_password");
+    if (x.type === "password") {
+        x.type = "text";
+    } else {
+        x.type = "password";
+    }
+} 
+  </script>
+
+</head>
+<center>
+<body background="/SKPROJECT/images/background_login.gif">
+  <div class="login_up">
+    <audio controls autoplay loop style="display: none">
+      <source src="/SKPROJECT/videos_songs/howlong.mp3" type="audio/mpeg">
+        Your browser does not support the audio element
+    </audio>
+
+
+  <h2> Selamat Datang Ke 19 Comp Club</h2>
+  
+ <div class="border">
+
+<img src="/SKPROJECT/images/smk19.png" style="width:200px;height: 189px;">
+
+</div>
+<br>
+<div class="login_down">
+  <form method="POST"  action="/SKPROJECT/scripts/login.php" autocomplete="off"> 
+
+<div class="username">
+    <strong> Username </strong>
+    </div>
+
+    <div class="username_box">  
+    <input " type="text" name="USERNAME" >
+</div>
+
+<div class="username_colon_text">
+  <strong>:</strong>
+</div>
+
+    <br>
+<br>
+
+<div class="password_text">
+<strong> Password  </strong>
+</div>
+
+<div class="pass_colon_text">
+  <strong>:</strong>
+</div>
+
+<div class="password_box">
+<input id="user_password" type="password" name="PASSWORD">
+</div>
+
+ <div class="show_password">
+ <input type="checkbox" onclick="checkpass()"><strong>Show Password</strong>
+</div>
+
+
+
+
+<br>
+
+<br>
+<br>
+<br>
+
+<input type="submit" value="Login">
+<a href="/SKPROJECT/scripts/homepage.html">
+<button type="button"> Halaman Utama</button>
+</a>
+
+
+
+
+  </form>
+  <div class="upload">
+
+  <form action="upload.php" method="post" enctype="multipart/form-data" >
+    <strong>Select image to upload</strong>
+    <div class="upload_input">
+    <input type="file" name="fileToUpload" id="fileToUpload">
+  </div>
+  <div class="upload_submit">
+    <input type="submit" value="Upload Image" name="submit">
+  </div>
+
+  <div class="upload_colon">
+    <strong>:</strong>
+  </div>
+
+</form>
+</div>
+
+</center>
+
+</div>
+</div>
+
+</body>
+</html>
